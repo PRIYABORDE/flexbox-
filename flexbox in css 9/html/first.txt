@@ -1,0 +1,18 @@
+What is CSS Flexbox?
+            The CSS Flexbox Layout Module defines a box model optimized for user interface design. It allows you to arrange items within a container along a single dimension (either horizontally or vertically).
+        In the flex layout model, the children of a flex container can be laid out in any direction.
+        These items can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent containe
+
+Key Concepts:
+    Flex Container: To use the Flexbox model, you first define a flex container. It represents the area where flex items are placed.
+    Flex Items: These are the individual elements within the flex container that participate in the flexible layout.
+    Main Axis: The primary direction along which flex items are laid out (either horizontally or vertically).
+    Cross Axis: The perpendicular direction to the main axis.
+
+Common Flex Properties:
+display:
+ flex: Converts an element into a flex container.
+flex-direction: Determines the main axis direction (row or column).
+justify-content: Aligns items along the main axis.
+align-items: Aligns items along the cross axis.
+flex-grow, flex-shrink, and flex-basis: Control item
